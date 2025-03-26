@@ -1,0 +1,113 @@
+﻿DATA DIGGER | SQL
+________________
+Create database data_digger
+Use data_digger
+(1)
+create table customers(
+CustomerID int primary key,
+Name varchar(50),
+Email varchar(70),
+Address varchar(100)
+);
+
+
+INSERT INTO customers (CustomerID,Name, Email, Address) 
+VALUES
+(101, 'Raj Sharma', 'raj@example.com',  '123 Pandesara'),
+(203, 'Jignesh Zala', 'jignesh@example.com','456 Vesu'),
+(302, 'Dev Patel', 'dev@example.com','789 Dindoli'),
+(445, 'Nilesh Sirvi', 'nilesh@example.com', '101 Yogi chowk'),
+(511, 'Om Rajput', 'om@example.com', '202 Ram chowk');
+
+
+select * from customers;
+UPDATE customers SET Address = '456 Vesu , 456 Dindoli' where CustomerID=203;
+DELETE FROM customers WHERE CustomerID = 511;
+SELECT * FROM customers WHERE Name = 'Nilesh Sirvi';
+________________
+
+(2)
+    CREATE TABLE Orders (
+    OrderID INT PRIMARY KEY, 
+    CustomerID INT NOT NULL, 
+    OrderDate DATE NOT NULL, 
+    TotalAmount DECIMAL(10,2) NOT NULL
+);
+
+
+INSERT INTO Orders (OrderID, CustomerID, OrderDate, TotalAmount)
+VALUES 
+(1, 101, '2025-03-01', 500.00),
+(2, 102, '2025-03-05', 750.50),
+(3, 103, '2025-03-10', 1200.00),
+(4, 104, '2025-03-15', 300.75),
+(5, 105, '2025-03-20', 999.99);
+
+
+SELECT * FROM Orders WHERE CustomerID = 102;
+UPDATE Orders SET TotalAmount = 850.00 WHERE OrderID = 2;
+DELETE FROM Orders WHERE OrderID = 3;
+SELECT * FROM Orders WHERE OrderDate >= DATE_SUB(CURDATE(), INTERVAL 30 DAY);
+
+
+SELECT 
+    MAX(TotalAmount) AS Highest_Order,
+    MIN(TotalAmount) AS Lowest_Order,
+    AVG(TotalAmount) AS Average_Order
+    FROM Orders;
+________________
+USE data_digger;
+(3)
+
+    CREATE TABLE Products (
+    ProductID INT PRIMARY KEY, 
+    ProductName VARCHAR(255) NOT NULL, 
+    Price DECIMAL(10,2) NOT NULL, 
+    Stock INT NOT NULL
+);
+
+
+INSERT INTO Products (ProductID, ProductName, Price, Stock)
+VALUES 
+(1, 'Laptop', 45000.00, 10),
+(2, 'Smartphone', 18000.50, 25),
+(3, 'Headphones', 1500.75, 50),
+(4, 'Tablet', 22000.99, 15),
+(5, 'Smartwatch', 7000.00, 30);
+
+
+SELECT * FROM Products ORDER BY Price DESC;
+UPDATE Products SET Price = 20000.00 WHERE ProductID = 2;
+DELETE FROM Products WHERE Stock = 0;
+SELECT * FROM Products WHERE Price BETWEEN 500 AND 2000;
+SELECT 
+    MAX(Price) AS Most_Expensive_Product,
+    MIN(Price) AS Cheapest_Product
+    FROM Products;
+________________
+Use data_digger;
+(4)
+  CREATE TABLE OrderDetails (
+    OrderDetailID INT PRIMARY KEY,
+    OrderID INT NOT NULL,
+    ProductID INT NOT NULL,
+    Quantity INT NOT NULL,
+    SubTotal DECIMAL(10,2) NOT NULL
+);
+
+
+INSERT INTO OrderDetails (OrderDetailID, OrderID, ProductID, Quantity, SubTotal) 
+VALUES 
+(1, 101, 501, 2, 400.00),
+(2, 102, 502, 1, 250.00),
+(3, 103, 503, 3, 900.00),
+(4, 104, 504, 2, 700.00),
+(5, 105, 505, 5, 1500.00);
+
+
+SELECT * FROM OrderDetails WHERE OrderID = 101;  
+SELECT SUM(SubTotal) AS TotalRevenue FROM OrderDetails;
+SELECT ProductID, SUM(Quantity) AS TotalQuantity FROM OrderDetails 
+GROUP BY ProductID ORDER BY TotalQuantity DESC LIMIT 3;
+SELECT ProductID, COUNT(*) AS TotalOrders FROM OrderDetails 
+WHERE ProductID = 501;
