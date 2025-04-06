@@ -1,0 +1,162 @@
+﻿CREATE DATABASE data_transformation;
+USE data_transformation;
+
+
+CREATE TABLE Customers (
+    CustomerID INT,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    Email VARCHAR(100),
+    RegistrationDate DATE
+);
+
+
+CREATE TABLE Orders (
+    OrderID INT,
+    CustomerID INT,
+    OrderDate DATE,
+    TotalAmount DECIMAL(10, 2)
+);
+
+
+CREATE TABLE Employees (
+    EmployeeID INT,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    Department VARCHAR(50),
+    HireDate DATE,
+    Salary DECIMAL(10, 2)
+);
+
+
+INSERT INTO Customers (CustomerID, FirstName, LastName, Email, RegistrationDate) VALUES
+(1, 'Arjun', 'Sharma', 'arjun.sharma@email.com', '15-03-22'),
+(2, 'Priya', 'Verma', 'priya.verma@email.com', '20-04-23'),
+(3, 'Rahul', 'Singh', 'rahul.singh@email.com', '10-06-21'),
+(4, 'Neha', 'Patel', 'neha.patel@email.com', '05-09-22'),
+(5, 'Vikram', 'Gupta', 'vikram.gupta@email.com', '12-12-23');
+
+
+INSERT INTO Orders (OrderID, CustomerID, OrderDate, TotalAmount) VALUES
+(101, 1, '01-07-22', 150.50),
+(102, 2, '03-07-23', 200.75),
+(103, 3, '15-08-22', 300.00),
+(104, 4, '20-09-23', 450.25),
+(105, 5, '25-10-22', 600.00);
+
+
+INSERT INTO Employees (EmployeeID, FirstName, LastName, Department, HireDate, Salary) VALUES
+(1, 'Amit', 'Kumar', 'Sales', '15-01-20', 50000.00),
+(2, 'Sneha', 'Mehta', 'HR', '20-03-21', 55000.00),
+(3, 'Rakesh', 'Joshi', 'IT', '10-05-22', 60000.00),
+(4, 'Anjali', 'Desai', 'Marketing', '25-06-21', 45000.00),
+(5, 'Suresh', 'Reddy', 'Finance', '30-09-20', 52000.00);
+
+
+-- 1 ---
+SELECT c.CustomerID, c.FirstName, c.LastName, o.OrderID, o.OrderDate, o.TotalAmount
+FROM Customers c
+INNER JOIN Orders o ON c.CustomerID = o.CustomerID;
+
+
+-- 2 ---
+SELECT c.CustomerID, c.FirstName, c.LastName, o.OrderID, o.OrderDate, o.TotalAmount
+FROM Customers c
+LEFT JOIN Orders o ON c.CustomerID = o.CustomerID;
+
+
+-- 3 ---
+SELECT c.CustomerID, c.FirstName, c.LastName, o.OrderID, o.OrderDate, o.TotalAmount
+FROM Customers c
+RIGHT JOIN Orders o ON c.CustomerID = o.CustomerID;
+
+
+-- 4 ---
+SELECT c.CustomerID, c.FirstName, c.LastName, o.OrderID, o.OrderDate, o.TotalAmount
+FROM felicitations c
+LEFT JOIN Orders o ON c.CustomerID = o.CustomerID
+UNION
+SELECT c.CustomerID, c.FirstName, c.LastName, o.OrderID, o.OrderDate, o.TotalAmount
+FROM Customers c
+RIGHT JOIN Orders o ON c.CustomerID = o.CustomerID
+WHERE c.CustomerID IS NULL;
+
+
+-- 5 ---
+SELECT c.CustomerID, c.FirstName, c.LastName, o.TotalAmount
+FROM Customers c
+INNER JOIN Orders o ON c.CustomerID = o.CustomerID
+WHERE o.TotalAmount > (SELECT AVG(TotalAmount) FROM Orders);
+
+
+-- 6 ---
+SELECT EmployeeID, FirstName, LastName, Salary
+FROM Employees
+WHERE Salary > (SELECT AVG(Salary) FROM Employees);
+
+
+-- 7 ---
+SELECT OrderID, OrderDate, YEAR(OrderDate) AS OrderYear, MONTH(OrderDate) AS OrderMonth
+FROM Orders;
+
+
+-- 8 ---
+SELECT OrderID, OrderDate, DATEDIFF(CURRENT_DATE, OrderDate) AS DaysDifference
+FROM Orders;
+
+
+-- 9 ---
+SELECT OrderID, DATE_FORMAT(OrderDate, '%d-%m-%Y') AS FormattedDate
+FROM Orders;
+
+
+-- 10 ---
+SELECT CONCAT(FirstName, ' ', LastName) AS FullName
+FROM Customers;
+
+
+-- 11 ---
+SELECT REPLACE(FirstName, 'Arjun', 'Ram') AS ReplacedName, LastName
+FROM Customers;
+
+
+-- 12 ---
+SELECT UPPER(FirstName) AS UpperFirstName, LOWER(LastName) AS LowerLastName
+FROM Customers;
+
+
+-- 13 ---
+SELECT TRIM(Email) AS TrimmedEmail
+FROM Customers;
+
+
+-- 14 ---
+SELECT OrderID, CustomerID, OrderDate, TotalAmount,
+       SUM(TotalAmount) OVER (ORDER BY OrderID) AS RunningTotal
+FROM Orders;
+
+
+-- 15 ---
+SELECT OrderID, CustomerID, OrderDate, TotalAmount,
+       RANK() OVER (ORDER BY TotalAmount DESC) AS RankAmount
+FROM Orders;
+
+
+-- 16 ---
+SELECT OrderID, TotalAmount,
+       CASE
+           WHEN TotalAmount > 1000 THEN TotalAmount * 0.90
+           WHEN TotalAmount > 500 THEN TotalAmount * 0.95
+           ELSE TotalAmount
+       END AS DiscountedAmount
+FROM Orders;
+
+
+-- 17 ---
+SELECT FirstName, LastName, Salary,
+       CASE
+           WHEN Salary >= 55000 THEN 'High'
+           WHEN Salary >= 50000 THEN 'Medium'
+           ELSE 'Low'
+       END AS SalaryCategory
+FROM Employees;
