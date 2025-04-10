@@ -1,0 +1,217 @@
+﻿CREATE DATABASE UniversityCourseManagement;
+USE UniversityCourseManagement;
+
+
+CREATE TABLE Departments (
+    DepartmentID INT PRIMARY KEY,
+    DepartmentName VARCHAR(50)
+);
+
+
+CREATE TABLE Students (
+    StudentID INT PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    Email VARCHAR(100),
+    BirthDate DATE,
+    EnrollmentDate DATE
+);
+
+
+CREATE TABLE Courses (
+    CourseID INT PRIMARY KEY,
+    CourseName VARCHAR(50),
+    DepartmentID INT,
+    Credits INT,
+    FOREIGN KEY (DepartmentID) REFERENCES Departments(DepartmentID)
+);
+
+
+CREATE TABLE Instructors (
+    InstructorID INT PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    Email VARCHAR(100),
+    DepartmentID INT,
+    Salary DECIMAL(10, 2),
+    FOREIGN KEY (DepartmentID) REFERENCES Departments(DepartmentID)
+);
+
+
+CREATE TABLE Enrollments (
+    EnrollmentID INT PRIMARY KEY,
+    StudentID INT,
+    CourseID INT,
+    EnrollmentDate DATE,
+    FOREIGN KEY (StudentID) REFERENCES Students(StudentID),
+    FOREIGN KEY (CourseID) REFERENCES Courses(CourseID)
+);
+
+
+INSERT INTO Departments (DepartmentID, DepartmentName) VALUES
+(1, 'Computer Science'),
+(2, 'Mathematics'),
+(3, 'Physics');
+
+
+INSERT INTO Students (StudentID, FirstName, LastName, Email, BirthDate, EnrollmentDate) VALUES
+(1, 'Rahul', 'Sharma', 'rahul@gmail.com', '2000-03-12', '2022-07-15'),
+(2, 'Priya', 'Verma', 'priya@gmail.com', '1999-08-25', '2021-07-10'),
+(3, 'Amit', 'Patel', 'amit@gmail.com', '2001-01-05', '2023-08-01'),
+(4, 'Sneha', 'Reddy', 'sneha@gmail.com', '2000-11-20', '2020-07-20'),
+(5, 'Vikram', 'Singh', 'vikram@gmail.com', '1998-06-15', '2019-07-25'),
+(6, 'Neha', 'Gupta', 'neha@gmail.com', '2002-04-10', '2023-09-01'),
+(7, 'Rohan', 'Kumar', 'rohan@gmail.com', '2001-07-15', '2022-08-10'),
+(8, 'Kavita', 'Joshi', 'kavita@gmail.com', '2000-09-20', '2021-07-15'),
+(9, 'Arjun', 'Mehta', 'arjun@gmail.com', '1999-12-05', '2020-08-01'),
+(10, 'Pooja', 'Nair', 'pooja@gmail.com', '2001-03-25', '2023-07-20'),
+(11, 'Suresh', 'Reddy', 'suresh@gmail.com', '2000-06-10', '2022-09-01'),
+(12, 'Anita', 'Singh', 'anita@gmail.com', '1998-11-15', '2019-08-10');
+
+
+INSERT INTO Courses (CourseID, CourseName, DepartmentID, Credits) VALUES
+(101, 'Introduction to SQL', 1, 3),
+(102, 'Data Structures', 2, 4),
+(103, 'Quantum Physics', 3, 3),
+(104, 'Algorithms', 1, 4),
+(105, 'Calculus', 2, 3);
+
+
+INSERT INTO Instructors (InstructorID, FirstName, LastName, Email, DepartmentID, Salary) VALUES
+(1, 'Anjali', 'Mehta', 'anjali@univ.com', 1, 75000.00),
+(2, 'Rakesh', 'Kumar', 'rakesh@univ.com', 2, 68000.00),
+(3, 'Suman', 'Rao', 'suman@univ.com', 1, 82000.00),
+(4, 'Kiran', 'Nair', 'kiran@univ.com', 3, 70000.00);
+
+
+INSERT INTO Enrollments (EnrollmentID, StudentID, CourseID, EnrollmentDate) VALUES
+(1, 1, 101, '2022-07-15'),
+(2, 2, 102, '2021-07-10'),
+(3, 3, 101, '2023-08-01'),
+(4, 4, 103, '2020-07-20'),
+(5, 5, 102, '2019-07-25'),
+(6, 1, 102, '2022-08-01'),
+(7, 2, 101, '2021-08-01'),
+(8, 6, 101, '2023-09-01'),
+(9, 7, 101, '2022-08-10'),
+(10, 8, 101, '2021-07-15'),
+(11, 9, 101, '2020-08-01'),
+(12, 10, 101, '2023-07-20'),
+(13, 11, 101, '2022-09-01'),
+(14, 12, 101, '2019-08-10'),
+(15, 4, 101, '2020-07-20'),
+(16, 5, 101, '2019-07-25');
+________________
+
+-- 1.
+SELECT * FROM Students ;
+UPDATE Students SET Email = 'rahul.rnw@gmail.com' WHERE StudentID = 1;
+DELETE FROM Students WHERE StudentID = 1;
+________________
+
+-- 2.
+SELECT FirstName, LastName, EnrollmentDate 
+FROM Students 
+WHERE EnrollmentDate > '2022-12-31';
+________________
+
+-- 3.
+SELECT CourseName, Credits 
+FROM Courses 
+WHERE DepartmentID = 2 
+LIMIT 5;
+________________
+
+-- 4.
+SELECT c.CourseName, COUNT(e.StudentID) AS StudentCount
+FROM Courses c
+LEFT JOIN Enrollments e ON c.CourseID = e.CourseID
+GROUP BY c.CourseName
+HAVING StudentCount > 5;
+________________
+
+-- 5.
+SELECT s.FirstName, s.LastName
+FROM Students s
+JOIN Enrollments e1 ON s.StudentID = e1.StudentID AND e1.CourseID = 101
+JOIN Enrollments e2 ON s.StudentID = e2.StudentID AND e2.CourseID = 102;
+________________
+
+-- 6.
+SELECT DISTINCT s.FirstName, s.LastName
+FROM Students s
+JOIN Enrollments e ON s.StudentID = e.StudentID
+WHERE e.CourseID IN (101, 102);
+________________
+
+-- 7.
+SELECT AVG(Credits) AS AvgCredits 
+FROM Courses;
+________________
+
+-- 8.
+SELECT MAX(Salary) AS MaxSalary 
+FROM Instructors 
+WHERE DepartmentID = 1;
+________________
+
+-- 9.
+SELECT d.DepartmentName, COUNT(DISTINCT e.StudentID) AS StudentCount
+FROM Departments d
+LEFT JOIN Courses c ON d.DepartmentID = c.DepartmentID
+LEFT JOIN Enrollments e ON c.CourseID = e.CourseID
+GROUP BY d.DepartmentName;
+________________
+
+-- 10.
+SELECT s.FirstName, s.LastName, c.CourseName
+FROM Students s
+INNER JOIN Enrollments e ON s.StudentID = e.StudentID
+INNER JOIN Courses c ON e.CourseID = c.CourseID;
+________________
+
+-- 11.
+SELECT s.FirstName, s.LastName, c.CourseName
+FROM Students s
+LEFT JOIN Enrollments e ON s.StudentID = e.StudentID
+LEFT JOIN Courses c ON e.CourseID = c.CourseID;
+________________
+
+-- 12.
+SELECT DISTINCT s.FirstName, s.LastName
+FROM Students s
+JOIN Enrollments e ON s.StudentID = e.StudentID
+WHERE e.CourseID IN (
+    SELECT CourseID
+    FROM Enrollments
+    GROUP BY CourseID
+    HAVING COUNT(StudentID) > 10
+);
+________________
+
+-- 13.
+SELECT FirstName, LastName, YEAR(EnrollmentDate) AS EnrollmentYear
+FROM Students;
+________________
+
+-- 14.
+SELECT CONCAT(FirstName, ' ', LastName) AS FullName
+FROM Instructors;
+________________
+
+-- 15.
+SELECT c.CourseName, COUNT(e.StudentID) AS StudentsEnrolled,
+       SUM(COUNT(e.StudentID)) OVER (ORDER BY c.CourseID) AS RunningTotal
+FROM Courses c
+LEFT JOIN Enrollments e ON c.CourseID = e.CourseID
+GROUP BY c.CourseName, c.CourseID;
+________________
+
+-- 16.
+SELECT FirstName, LastName,
+       CASE 
+           WHEN DATEDIFF('2025-04-09', EnrollmentDate) / 365 > 4 THEN 'Senior'
+           ELSE 'Junior'
+       END AS StudentStatus
+FROM Students;
+________________
