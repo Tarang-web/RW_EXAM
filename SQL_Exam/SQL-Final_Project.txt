@@ -106,7 +106,7 @@ ________________
 -- 1.
 SELECT * FROM Students ;
 UPDATE Students SET Email = 'rahul.rnw@gmail.com' WHERE StudentID = 1;
-DELETE FROM Students WHERE StudentID = 1;
+DELETE FROM enrollments WHERE StudentID = 1;
 ________________
 
 -- 2.
