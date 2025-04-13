@@ -1,0 +1,258 @@
+﻿CREATE DATABASE IF NOT EXISTS library_management;
+USE library_management;
+________________
+
+-- tables
+
+CREATE TABLE Authors (
+    author_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100)
+);
+
+CREATE TABLE Books (
+    book_id INT PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(200) NOT NULL,
+    author_id INT,
+    category VARCHAR(50),
+    isbn VARCHAR(13) UNIQUE,
+    published_date DATE,
+    price DECIMAL(10, 2),
+    available_copies INT DEFAULT 0,
+    FOREIGN KEY (author_id) REFERENCES Authors(author_id)
+);
+
+CREATE TABLE Members (
+    member_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100),
+    phone_number VARCHAR(15),
+    membership_date DATE
+);
+
+CREATE TABLE Transactions (
+    transaction_id INT PRIMARY KEY AUTO_INCREMENT,
+    member_id INT,
+    book_id INT,
+    borrow_date DATE,
+    return_date DATE,
+    fine_amount DECIMAL(10, 2) DEFAULT 0.00,
+    FOREIGN KEY (member_id) REFERENCES Members(member_id),
+    FOREIGN KEY (book_id) REFERENCES Books(book_id)
+);
+________________
+
+-- Insert Records 
+
+INSERT INTO Authors (name, email) VALUES
+('Aarav Sharma', 'aarav@gmail.com'),
+('Priya Gupta', 'priya@gmail.com'),
+('Vikram Singh', 'vikram@gmail.com'),
+('Ananya Patel', 'ananya@gmail.com'),
+('Rohan Mehta', 'rohan@gmail.com'),
+('Neha Verma', 'neha@gmail.com'),
+('Kiran Desai', 'kiran@gmail.com');
+
+
+INSERT INTO Books (title, author_id, category, isbn, published_date, price, available_copies) VALUES
+('The Himalayan Quest', 1, 'Adventure', '9781234567890', '2018-07-10', 399.00, 6),
+('Code of the Ancients', 2, 'Fiction', '9780987654321', '2022-01-15', 599.00, 4),
+('Physics Unveiled', 3, 'Science', '9781122334455', '2015-03-20', 799.00, 3),
+('Tales of Mumbai', 4, 'Fiction', '9782233445566', '2020-11-05', 349.00, 5),
+('The Spice Route', 5, 'History', '9783344556677', '2019-06-12', 499.00, 2),
+('Data Science Essentials', 6, 'Technology', '9784455667788', '2023-04-25', 999.00, 7),
+('Monsoon Memories', 7, 'Fiction', '9785566778899', '2017-09-30', 299.00, 4);
+
+
+INSERT INTO Members (name, email, phone_number, membership_date) VALUES
+('Sanya Kapoor', 'sanya@gmail.com', '9123456789', '2020-02-10'),
+('Arjun Rao', 'arjun@gmail.com', '9876543210', '2021-08-15'),
+('Meera Nair', 'meera@gmail.com', '8765432109', '2019-05-20'),
+('Aditya Choudhury', 'aditya@gmail.com', '7654321098', '2022-03-12'),
+('Pooja Iyer', 'pooja@gmail.com', '6543210987', '2023-01-05'),
+('Rahul Malhotra', 'rahul@gmail.com', '5432109876', '2021-11-25'),
+('Shalini Bose', 'shalini@gmail.com', '4321098765', '2020-09-30');
+
+
+INSERT INTO Transactions (member_id, book_id, borrow_date, return_date, fine_amount) VALUES
+(1, 1, '2025-03-01', '2025-03-10', 0.00),
+(2, 2, '2025-03-05', NULL, 0.00),
+(3, 3, '2025-02-15', '2025-03-01', 50.00),
+(4, 4, '2025-03-10', '2025-03-20', 0.00),
+(5, 5, '2025-03-12', NULL, 0.00),
+(6, 6, '2025-02-20', '2025-03-05', 30.00),
+(7, 7, '2025-03-15', NULL, 0.00);
+________________
+
+-- 1. 
+INSERT INTO Members (name, email, phone_number, membership_date)
+VALUES ('Amit Joshi', 'amit@gmail.com', '9876543211', '2023-06-15');
+
+
+UPDATE Books SET available_copies = available_copies - 1 WHERE book_id = 1;
+
+
+DELETE Members 
+FROM Members 
+LEFT JOIN Transactions ON Members.member_id = Transactions.member_id
+    AND Transactions.borrow_date >= DATE_SUB(CURDATE(), INTERVAL 1 YEAR)
+WHERE Transactions.transaction_id IS NULL;
+
+
+SELECT * FROM Books WHERE available_copies > 0;
+________________
+
+-- 2. 
+SELECT * FROM Books WHERE published_date > '2015-12-31';
+
+SELECT * FROM Books ORDER BY price DESC LIMIT 5;
+
+SELECT * FROM Members WHERE membership_date < '2022-01-01';
+________________
+
+-- 3. 
+SELECT * FROM Books WHERE category = 'Science' AND price < 1000;
+
+SELECT * FROM Books WHERE available_copies = 0;
+
+SELECT m.*
+FROM Members m
+LEFT JOIN Transactions t ON m.member_id = t.member_id
+GROUP BY m.member_id, m.name, m.email, m.phone_number, m.membership_date
+HAVING COUNT(t.transaction_id) > 3 OR m.membership_date > '2020-12-31';
+________________
+
+-- 4. 
+SELECT * FROM Books ORDER BY title ASC;
+
+SELECT m.name, COUNT(t.transaction_id) as books_borrowed
+FROM Members m
+LEFT JOIN Transactions t ON m.member_id = t.member_id
+GROUP BY m.member_id, m.name;
+
+SELECT category, COUNT(*) as total_books
+FROM Books
+GROUP BY category;
+________________
+
+-- 5. 
+SELECT category, COUNT(*) as total
+FROM Books
+GROUP BY category;
+
+SELECT AVG(price) as average_price FROM Books;
+
+SELECT b.title, COUNT(t.book_id) as borrow_count
+FROM Books b
+LEFT JOIN Transactions t ON b.book_id = t.book_id
+GROUP BY b.book_id, b.title
+ORDER BY borrow_count DESC
+LIMIT 1;
+
+SELECT SUM(fine_amount) as total_fines FROM Transactions;
+________________
+
+-- 7. 
+SELECT b.title, a.name
+FROM Books b
+INNER JOIN Authors a ON b.author_id = a.author_id;
+
+SELECT m.name, b.title
+FROM Members m
+LEFT JOIN Transactions t ON m.member_id = t.member_id
+LEFT JOIN Books b ON t.book_id = b.book_id;
+
+SELECT b.title
+FROM Books b
+RIGHT JOIN Transactions t ON b.book_id = t.book_id
+WHERE t.book_id IS NULL;
+
+SELECT m.name
+FROM Members m
+LEFT JOIN Transactions t ON m.member_id = t.member_id
+WHERE t.member_id IS NULL;
+________________
+
+-- 8. Implement Subqueries
+SELECT b.title
+FROM Books b
+INNER JOIN Transactions t ON b.book_id = t.book_id
+WHERE t.member_id IN (
+    SELECT member_id 
+    FROM Members 
+    WHERE membership_date > '2022-12-31'
+);
+
+
+SELECT b.title
+FROM Books b
+WHERE b.book_id = (
+    SELECT t.book_id
+    FROM Transactions t
+    GROUP BY t.book_id
+    ORDER BY COUNT(*) DESC
+    LIMIT 1
+);
+
+SELECT m.name
+FROM Members m
+WHERE m.member_id NOT IN (
+    SELECT t.member_id 
+    FROM Transactions t
+);
+________________
+
+-- 9. 
+SELECT YEAR(published_date) as pub_year, COUNT(*) as book_count
+FROM Books
+GROUP BY YEAR(published_date);
+
+SELECT t.transaction_id, t.borrow_date, t.return_date,
+       DATEDIFF(t.return_date, t.borrow_date) as days_diff
+FROM Transactions t
+WHERE t.return_date IS NOT NULL;
+
+SELECT transaction_id, DATE_FORMAT(borrow_date, '%d-%m-%Y') as formatted_date
+FROM Transactions;
+________________
+
+-- 10.
+SELECT UPPER(title) as upper_title FROM Books;
+
+SELECT TRIM(name) as trimmed_name FROM Authors;
+
+SELECT COALESCE(email, 'Not Provided') as email FROM Authors;
+________________
+
+-- 11. 
+SELECT b.title, COUNT(t.book_id) as borrow_count,
+       RANK() OVER (ORDER BY COUNT(t.book_id) DESC) as book_rank
+FROM Books b
+LEFT JOIN Transactions t ON b.book_id = t.book_id
+GROUP BY b.book_id, b.title;
+
+SELECT m.name, t.book_id,
+       SUM(COUNT(t.book_id)) OVER (PARTITION BY m.member_id ORDER BY t.borrow_date) as cumulative_borrow
+FROM Members m
+LEFT JOIN Transactions t ON m.member_id = t.member_id
+GROUP BY m.member_id, m.name, t.book_id, t.borrow_date;
+________________
+
+-- 12. 
+SELECT m.name,
+       CASE
+           WHEN MAX(t.borrow_date) >= DATE_SUB(CURDATE(), INTERVAL 6 MONTH) THEN 'Active'
+           ELSE 'Inactive'
+       END as membership_status
+FROM Members m
+LEFT JOIN Transactions t ON m.member_id = t.member_id
+GROUP BY m.member_id, m.name;
+
+
+SELECT title,
+       CASE
+           WHEN published_date > '2020-12-31' THEN 'New Arrival'
+           WHEN published_date < '2000-01-01' THEN 'Classic'
+           ELSE 'Regular'
+       END as book_category
+FROM Books;
