@@ -1,0 +1,64 @@
+CREATE DATABASE hospital_db;
+USE hospital_db;
+
+-- What is the average age of patients admitted to the Pediatrics department?
+SELECT ROUND(AVG(age), 2) AS avg_age
+FROM hospital_dataset
+WHERE department = 'Pediatrics';
+
+-- Which department has the highest total bill amount for all patients?
+SELECT department, SUM(BillAmount) AS total_bill
+FROM hospital_dataset
+GROUP BY department
+ORDER BY total_bill DESC
+LIMIT 1;
+
+-- How many patients were admitted in 2024 and discharged in 2025?
+SELECT COUNT(*) AS patient_count
+FROM hospital_dataset
+WHERE YEAR(AdmissionDate) = 2024
+AND YEAR(DischargeDate) = 2025;
+
+-- What is the most common diagnosis listed in the dataset?
+SELECT diagnosis, COUNT(*) AS diagnosis_count
+FROM hospital_dataset
+GROUP BY diagnosis
+ORDER BY diagnosis_count DESC
+LIMIT 1;
+
+-- Who is the doctor with the most patient admissions in the dataset?
+SELECT doctor, COUNT(*) AS admission_count
+FROM hospital_dataset
+GROUP BY doctor
+ORDER BY admission_count DESC
+LIMIT 1;
+
+-- What is the gender distribution of patients in the Oncology department?
+SELECT gender, COUNT(*) AS patient_count
+FROM hospital_dataset
+WHERE department = 'Oncology'
+GROUP BY gender;
+
+-- Which patient had the longest hospital stay, and how long was it?
+SELECT PatientID, Name, DATEDIFF(DischargeDate, AdmissionDate) AS stay_length
+FROM hospital_dataset
+WHERE AdmissionDate IS NOT NULL AND DischargeDate IS NOT NULL
+ORDER BY stay_length DESC
+LIMIT 1;
+
+-- What is the average bill amount for patients admitted to the Emergency department?
+SELECT ROUND(AVG(BillAmount), 2) AS avg_bill
+FROM hospital_dataset
+WHERE Department = 'Emergency';
+
+-- How many patients under the age of 18 were admitted to the Psychiatry department?
+SELECT COUNT(*) AS underage_count
+FROM hospital_dataset
+WHERE Department = 'Psychiatry' AND Age < 18;
+
+-- Which department had the highest number of admissions on a single day?
+SELECT Department, AdmissionDate, COUNT(*) AS admission_count
+FROM hospital_dataset
+GROUP BY Department, AdmissionDate
+ORDER BY admission_count DESC
+LIMIT 1;

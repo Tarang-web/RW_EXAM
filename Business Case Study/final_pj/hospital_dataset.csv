@@ -1,0 +1,501 @@
+PatientID,Name,Age,Gender,AdmissionDate,DischargeDate,Department,Doctor,Diagnosis,BillAmount
+1508,Sara Martin,63,Female,2023-11-27,2023-12-22,Pediatrics,Tonya Huff,Indeed thank usually store.,34770.77
+9780,Stephanie Campbell,54,Male,2024-03-25,2024-03-25,Neurology,Michael Dixon,Response American.,17720.39
+1111,Karen Mcclain,18,Other,2024-11-02,2025-04-22,Cardiology,Mary Hicks,Wish hear president.,16307.8
+2489,Eric Martinez,23,Male,2024-04-20,2024-04-20,Pediatrics,James Phillips,Notice member.,13967.69
+4863,Sharon Peck,90,Other,2025-04-28,2025-04-28,Oncology,Brian Soto,Ever anything soldier someone.,4687.96
+8663,James Williams,78,Male,2024-10-13,2024-10-13,Orthopedics,Nichole Pierce,Assume plant.,9981.28
+4997,Andrew Hunt,52,Male,2023-07-19,2024-11-16,Oncology,Jeremy Whitehead,Fill agree.,40113.89
+5068,David Bowman,51,Male,2025-02-04,2025-02-04,Emergency,Billy Barton,Foot building century.,25672.37
+2491,Mary Murphy,46,Female,2023-08-11,2024-06-14,Pediatrics,Denise Brown,Agree throughout letter.,4298.59
+5015,Oscar Bush,23,Female,2024-09-03,2024-10-24,Pediatrics,Mrs. Meredith Warner DDS,Word decade.,38346.59
+7628,Robert Johnson,100,Male,2024-03-31,2024-11-21,Emergency,Dawn Jones,Career win dark.,31604.52
+3930,Lawrence Gibson,99,Male,2024-12-16,2025-01-12,Cardiology,Daniel Moore,Economic himself bag.,44740.54
+9396,Xavier Freeman,29,Female,2023-11-04,2023-11-04,Emergency,Charles Roberts,Take defense.,31120.6
+8972,Kimberly Roberts DVM,92,Other,2024-10-02,2025-01-11,Orthopedics,Sylvia Robinson,I adult own.,10885.08
+4310,Craig Williams,21,Male,2024-12-15,2025-02-24,Psychiatry,Aaron Phillips,Describe.,2178.11
+7243,Kristin Kelley,48,Female,2024-05-27,2024-10-06,Cardiology,Mark Lawrence,Hear.,19562.45
+5394,Elizabeth Oneal,93,Other,2025-02-02,2025-02-28,Orthopedics,Diana Frost,Similar next maintain.,4922.53
+2248,Michael Wagner,65,Female,2023-07-30,2023-07-30,Oncology,Stephen Martin,Natural difference.,23126.75
+9484,Zachary Stanley,87,Other,2024-01-31,2024-07-07,Neurology,Sharon Smith,At good.,22653.86
+5352,Jordan Anderson,85,Female,2024-10-04,2025-04-16,Orthopedics,Megan Wright,Data clearly actually.,46450.94
+5111,Harold Schmidt,75,Male,2024-04-07,2025-01-01,Radiology,Terri Jones,We unit thought.,48312.98
+9305,Robert Vega,23,Other,2024-02-14,2024-10-17,Cardiology,Tracy Martinez,Once education little.,30802.54
+5547,John Hunt,52,Male,2024-07-30,2024-09-10,Orthopedics,Renee Reynolds,Herself impact oil.,48194.34
+7644,Jessica Butler,92,Other,2024-01-07,2024-01-07,Pediatrics,Rachel Garza,Election month voice allow.,36622.95
+6625,Elizabeth Walker,5,Male,2025-05-19,2025-06-29,Emergency,Joshua Serrano,Camera air produce.,38724.95
+4660,Rebecca Woodward,62,Other,2023-11-19,2023-11-19,Radiology,Mercedes Pruitt,Dark gun decide.,25692.81
+7697,Karen Webster,95,Other,2025-05-07,2025-06-15,Psychiatry,Matthew Lowe,Break management picture ok.,21986.6
+2655,Matthew Perry,75,Male,2024-09-07,2024-09-07,Oncology,Joshua Jones,Production team walk upon.,21426.19
+2929,Cameron Long,25,Other,2023-09-08,2023-09-08,Radiology,Rodney Hart,Put reality because.,32011.6
+5103,James Hayden,54,Other,2023-12-24,2024-04-18,Cardiology,Abigail White,Present successful improve.,8642.66
+3845,Jaime Parker,8,Female,2024-11-08,2024-11-08,Oncology,Marissa Ramirez,Listen walk like with.,29336.13
+9335,Tanner Ellis,70,Female,2024-02-10,2024-02-10,Orthopedics,John King,Reach local floor.,1594.02
+6742,Jamie Floyd,11,Male,2023-10-25,2024-11-22,Psychiatry,Samantha Garcia,Treatment month factor.,9171.08
+4065,Pamela Burton,65,Male,2024-03-21,2024-07-08,Pediatrics,Carol Shaw,Attorney do customer.,43439.07
+7334,Wayne Mccall,97,Male,2024-11-17,2025-03-11,Oncology,Brandon Hall,Consider north together.,21442.33
+7217,Connie Becker MD,56,Other,2025-06-10,2025-06-10,Pediatrics,Christine Colon,Will black.,31654.59
+6109,Anna Brown,39,Other,2023-09-07,2024-07-27,Pediatrics,Brittany Roberts,Degree.,18795.36
+5410,Lindsey Kennedy,56,Male,2023-08-28,2025-03-16,Oncology,Cynthia Garcia,Race who.,16345.77
+3653,David Williams,17,Male,2024-09-22,2024-12-18,Radiology,Donald Owens,Above force.,8282.39
+3526,Susan Bauer,15,Male,2024-04-13,2024-08-26,Emergency,Paul Rodriguez,Machine seem else.,19923.03
+7377,Christopher Sullivan,12,Male,2024-03-10,2024-03-10,Pediatrics,Eric Moreno,Attention politics recent.,31934.11
+2578,Andre Copeland,94,Female,2025-07-02,2025-07-02,Psychiatry,Dustin Price,Manager try decade.,34911.66
+9866,Tina Estrada,16,Female,2024-03-17,2024-03-17,Psychiatry,Patrick Williams,Tough energy effort.,37896.57
+1732,Gregory Myers,72,Other,2025-02-20,2025-02-20,Oncology,Mary Austin,Sport threat heavy.,30146.26
+7875,Tammy Norman,26,Male,2024-01-20,2024-01-20,Oncology,John Douglas,Huge measure.,39702.3
+3877,Charles Cummings,89,Male,2024-03-18,2024-07-22,Psychiatry,Robert Mccullough,Especially least.,12705.72
+3143,Peter Avila,54,Other,2024-02-17,2025-01-05,Emergency,Scott Mitchell,Explain cold.,48501.8
+5853,Evan Roth,80,Male,2025-03-22,2025-04-27,Orthopedics,James Trujillo,Report let.,41208.95
+7300,Debbie Wells,29,Female,2023-11-05,2024-04-11,Pediatrics,Selena Davidson,Property.,24085.27
+4000,Kenneth Lee,16,Other,2024-11-20,2024-11-23,Orthopedics,Rita Ross,Matter free thought.,38559.96
+5024,Laura Chambers,47,Female,2024-01-21,2024-01-21,Emergency,Hannah Kim,Relationship war.,47793.85
+3649,Janet Escobar,55,Other,2024-10-08,2024-10-08,Radiology,Melissa Powell,Education record look.,25260.07
+5750,Annette Hardin,80,Male,2025-07-04,2025-07-04,Emergency,Omar Lynch,Particular trip wear.,19151.28
+2970,Jacqueline Jackson,47,Other,2023-09-24,2025-01-04,Cardiology,Raymond Rodgers,Card part.,5772.88
+9191,Kendra Moss,62,Female,2025-05-15,2025-05-15,Neurology,Cristian Scott,More floor end.,36432.42
+7858,Rebecca Taylor,74,Other,2023-10-22,2025-05-19,Emergency,Claudia Smith,Beautiful student law.,46133.63
+4495,Michael Rivas,54,Male,2024-09-17,2025-04-25,Neurology,Dustin Duncan,Event prepare.,39643.41
+3376,Edward Perry,95,Female,2024-05-26,2024-05-26,Radiology,Ryan Flores,This fund.,32360.11
+1555,Jeremy Thompson,71,Male,2024-02-02,2024-09-16,Cardiology,Jackie Gardner,Short themselves investment already.,44785.37
+3738,Elizabeth Bowen,75,Male,2024-05-19,2024-12-19,Emergency,Carl Hurst,Interview major beyond.,21990.75
+4191,Danielle Jacobs,14,Male,2025-04-18,2025-04-19,Emergency,Adam Joseph,Talk the.,47304.5
+5202,Christopher Lewis,40,Female,2023-07-25,2023-10-26,Orthopedics,Jacob Newton,System five.,39255.9
+9370,John Best,82,Female,2023-11-02,2024-06-28,Orthopedics,Julia Dean,Necessary state.,12150.92
+8140,Ryan Green,97,Male,2025-03-08,2025-05-31,Radiology,Daniel Jackson,Positive challenge.,1205.15
+6526,Andrew Thomas DDS,33,Female,2024-12-07,2025-06-14,Pediatrics,James Vincent,According.,39069.45
+4043,Mary Cox,27,Other,2025-02-19,2025-03-16,Orthopedics,Chad Rodriguez,Relate some cover.,39249.72
+8328,Jacqueline Chang,79,Other,2025-01-15,2025-06-26,Emergency,Katherine Freeman,Choose floor surface.,6843.57
+6592,Peter Mckenzie,12,Male,2023-07-15,2025-06-05,Orthopedics,Dr. Gary Brown DDS,Employee.,3967.1
+3813,Joel Moore,10,Female,2025-05-27,2025-06-18,Orthopedics,Charles Jacobs,Her decision direction.,23618.78
+5307,Janet Nash,81,Other,2025-01-14,2025-06-18,Pediatrics,Danielle Bailey,Medical check.,48552.52
+8126,Jason West,82,Other,2024-03-10,2024-11-30,Neurology,Andrew Nicholson,Similar relationship.,20216.47
+1744,Michael Smith,22,Male,2023-08-27,2025-07-06,Neurology,Robert Baker,Across born.,21080.55
+8636,Stuart Taylor,79,Other,2024-10-31,2024-11-15,Pediatrics,Alexis Williams,Nation country.,18076.3
+1747,Vickie Crosby,17,Female,2025-03-25,2025-03-25,Emergency,Anthony Brown,Gun movie.,2245.78
+1542,Anthony Carter,66,Female,2025-02-25,2025-02-25,Radiology,Jessica Perkins,Responsibility official.,30884.66
+7953,James Kennedy,45,Other,2023-10-12,2024-03-22,Pediatrics,Alexander Lawrence,Conference expect example.,41525.3
+5995,Julie Johnson,9,Female,2024-11-01,2024-11-05,Cardiology,Robin Murphy,Would short.,26292.56
+4176,Anthony Welch,9,Male,2025-05-02,2025-05-21,Emergency,Susan Schroeder,Approach hour.,35286.7
+4828,Amber Peters,57,Other,2025-04-01,2025-04-01,Pediatrics,Justin Martin,Buy writer.,10663.81
+1724,Samantha Ashley,35,Female,2024-10-19,2025-04-28,Pediatrics,James Todd,Authority yard.,11789.43
+6904,Randall Ramirez,53,Male,2023-09-14,2024-03-10,Cardiology,Anthony Evans,Lose ask hear.,20957.22
+4532,Tiffany Jones,16,Male,2025-04-18,2025-07-03,Psychiatry,Victoria Adams,Others beautiful standard political.,26471.75
+7876,Kathleen Higgins,5,Male,2024-09-04,2025-01-09,Orthopedics,Dr. Vernon King,Race yes degree.,18538.29
+4128,Nathan Larson,44,Female,2024-11-15,2025-01-17,Radiology,Ruth Kelly,Meeting score.,35358.74
+3569,William Scott,90,Male,2024-04-27,2024-08-10,Pediatrics,Dennis Lyons,All century.,24404.92
+4122,Sergio White,2,Male,2025-06-18,2025-06-18,Pediatrics,Christopher Davis,Staff series modern.,7175.8
+9857,Jaime Hughes,55,Female,2024-02-01,2024-02-26,Neurology,Greg Weber,Page suggest life.,47677.0
+7653,Kayla Thompson,83,Female,2024-05-24,2024-05-24,Oncology,Dr. Daniel Garza PhD,Product cold notice.,48428.0
+2253,Mr. Jeffrey Bolton DDS,83,Female,2024-06-02,2024-06-02,Orthopedics,Heather Thompson,Six protect wish citizen.,8905.8
+7094,Robert Johnson,68,Female,2024-04-08,2024-11-21,Orthopedics,Elizabeth Leblanc,Phone eight budget.,48382.78
+5466,Phillip Cooper,92,Male,2024-01-04,2024-01-04,Cardiology,Melissa Huang,Red matter part.,22364.37
+9260,Andrea Nunez,53,Other,2025-01-05,2025-03-28,Radiology,Lori Noble,Administration national.,10925.29
+4321,Mark Wagner,91,Male,2024-01-28,2025-04-02,Oncology,David Morris,Table.,10451.68
+1138,Richard Chapman,61,Other,2025-03-30,2025-07-07,Emergency,Kevin Miller,Project organization.,26914.21
+9530,Amy Harris,7,Male,2023-11-23,2024-03-20,Emergency,Rachel Owen,Foreign bit.,45836.29
+5645,Jared Bennett,28,Other,2025-03-16,2025-05-30,Pediatrics,Lance Romero,Bad daughter audience.,45254.5
+4460,Sarah Morris,7,Female,2024-07-03,2024-07-03,Pediatrics,Sheila Henderson,Indicate ok.,1049.82
+2549,Mark Nguyen MD,71,Other,2023-09-05,2023-09-05,Cardiology,Cody Ruiz,Thus region gun.,14051.55
+3359,Austin Jones,77,Male,2024-08-11,2024-08-11,Psychiatry,Amanda Tucker,Account job.,7164.83
+3196,Pedro Smith,15,Other,2025-05-29,2025-06-03,Emergency,Joshua Perez,Mother just which.,18229.55
+7729,Hector Gordon,59,Male,2024-05-09,2024-11-25,Neurology,Edwin Smith,Bag provide could.,43059.65
+4005,Christopher Williams,78,Male,2023-09-21,2024-05-11,Oncology,Laura Mathis,Vote state.,30629.92
+8111,Bradley Norton,98,Male,2025-03-25,2025-05-20,Emergency,Alex Manning,Have bad.,17162.88
+4415,Christopher Edwards,6,Male,2024-02-07,2024-02-07,Radiology,Christina Cook,Science such bad.,14300.57
+9786,Jamie Fitzpatrick,18,Male,2025-02-01,2025-02-01,Psychiatry,William Anderson,Here plan.,9635.93
+5850,Rebecca Santiago,85,Other,2024-09-18,2024-09-18,Emergency,Michael White,Worker however person.,17896.01
+2041,Rhonda Fowler,29,Other,2024-06-23,2024-12-08,Neurology,Suzanne Rogers,Though reduce my.,17109.29
+7151,Reginald Anderson,12,Other,2024-09-25,2025-04-16,Orthopedics,Michael Hicks,Word human commercial.,24857.0
+2454,Vanessa Davis,13,Female,2024-09-22,2025-03-30,Cardiology,Michael Campbell,Purpose collection action.,46866.61
+2422,Kelly Gonzales,65,Male,2024-05-02,2025-01-04,Neurology,Alan Adams,Community evening.,39296.37
+2512,Alfred Singh,9,Male,2024-02-10,2024-02-10,Orthopedics,Anna Carpenter,From language.,16521.12
+2746,Christopher Rangel,15,Male,2025-05-05,2025-06-21,Psychiatry,Deborah Walker,Study data.,5969.52
+4536,Nicholas Taylor,74,Male,2025-03-06,2025-03-06,Neurology,Theresa Stewart,Friend indicate.,46322.21
+5481,Lisa Moore,8,Male,2025-03-09,2025-03-12,Emergency,Kristina Garcia,City computer.,27017.69
+2159,Grant Durham,1,Other,2023-07-31,2023-07-31,Cardiology,Jonathan Payne,Economy option.,2031.47
+9411,Kimberly Robles DDS,15,Male,2024-08-29,2024-08-29,Oncology,William Briggs,Simply professional state.,11535.79
+6913,Monica Davis,26,Male,2025-01-11,2025-04-06,Oncology,Sandra Williams,Thing most simply.,17054.82
+8725,Benjamin Oneill,78,Male,2024-03-13,2024-03-13,Orthopedics,Cheryl Greene,Choose expect serve.,40482.99
+4184,David Solis,71,Male,2024-09-06,2024-09-06,Cardiology,Elizabeth Brown,Now.,40464.68
+5599,John Olson,17,Female,2024-08-13,2024-08-13,Orthopedics,Lauren Baldwin,Religious.,9208.12
+6883,Jamie Harvey,74,Other,2024-06-01,2025-04-05,Psychiatry,Tyler Gonzalez,Professional from difficult.,24764.49
+9736,Jeremy Simpson,63,Male,2025-06-18,2025-06-24,Cardiology,Nicole Rose,Book oil.,25588.29
+8562,Chloe Underwood,19,Male,2023-12-30,2023-12-30,Oncology,Timothy Tucker,Everything have.,39547.43
+8904,Cory Davis,85,Male,2025-01-05,2025-02-04,Radiology,Matthew Harvey,Threat recognize.,1976.59
+8726,Helen Brandt MD,42,Female,2024-12-13,2024-12-26,Orthopedics,Jose Martinez,Resource science play.,45438.97
+7698,Tiffany Griffin,100,Female,2025-01-12,2025-05-24,Oncology,Lauren Hansen,Important account technology.,47731.52
+6831,Suzanne Francis,85,Male,2025-01-14,2025-01-30,Emergency,Nicholas Hernandez,Watch four.,40258.66
+7090,Judy Hernandez,42,Other,2024-06-21,2025-04-25,Neurology,Benjamin Alexander,Remember rather fact.,7635.55
+1789,Dr. Jackson Harris,6,Male,2023-09-18,2025-01-20,Orthopedics,Richard Nichols,Mind matter real.,19817.4
+3349,Jonathan Clark,10,Other,2025-03-03,2025-03-03,Orthopedics,Glenda Tyler,Candidate church watch issue.,33099.95
+9391,Shannon Dalton,47,Male,2024-09-28,2025-02-24,Cardiology,Tina Peters,Order body.,33366.03
+5175,Andrew Williams,59,Male,2023-11-25,2024-07-02,Cardiology,Debbie Costa,Born.,21218.95
+7332,Wesley Osborne,50,Male,2024-11-21,2025-01-16,Orthopedics,Christine Chambers,Discuss those very.,7140.73
+8392,Melissa Cole,99,Female,2025-03-15,2025-06-06,Emergency,Melanie Martin,After the before.,17792.51
+5095,Michael Barnett,79,Female,2024-10-22,2025-05-30,Psychiatry,Michael Quinn,Fly itself.,4084.2
+9076,Alexander Garcia,57,Other,2025-05-12,2025-05-25,Emergency,Rebecca Henry,Cost physical.,12845.58
+7381,Kim Riley,40,Female,2024-11-10,2025-06-21,Neurology,Eric Bailey,Together would rise.,42358.91
+8687,David Johnson,17,Male,2023-08-20,2025-03-08,Neurology,Donna Ward,Strategy board.,28865.52
+8523,Christina Davis,11,Male,2024-01-05,2024-11-27,Orthopedics,Alicia Bradley,Middle be base.,1007.04
+9166,Jonathon Haney,63,Male,2024-04-02,2024-04-02,Emergency,Gabriel Glass,Local during use range.,16192.42
+9451,Kimberly Reyes,31,Other,2025-04-08,2025-04-08,Oncology,Carlos Li,Process play future.,5829.19
+3938,Amber Beck,41,Female,2025-04-14,2025-04-28,Emergency,Sharon Nelson,Former threat available.,30508.61
+8706,David Quinn,23,Male,2025-04-08,2025-04-08,Oncology,Kristen Green,Building book movement.,46652.98
+9300,Samantha Parks,95,Male,2025-03-17,2025-03-17,Pediatrics,Jennifer Gonzales,Kitchen few fall.,25410.07
+5217,Jamie Clark,33,Male,2023-11-09,2025-03-18,Oncology,Joseph Wilson,Buy.,17360.77
+8468,Keith Berry,19,Female,2024-12-04,2025-04-18,Psychiatry,William Stevens,Behind result challenge.,16759.06
+5888,Gail Jones,4,Other,2024-04-01,2025-03-17,Oncology,Elizabeth Sanders,Rather before chair.,13401.93
+4615,Ashley Salazar,17,Male,2023-11-06,2024-12-19,Psychiatry,Brianna Simmons,Culture rule.,28446.83
+4657,Juan Pugh,20,Male,2023-08-09,2025-02-07,Neurology,Nicholas Wright,Employee respond team.,49604.01
+6396,Kelly Galvan,21,Female,2024-07-14,2024-07-14,Pediatrics,Jessica Thompson,Both history.,17320.91
+1984,David Perez,65,Male,2025-05-31,2025-05-31,Psychiatry,Tonya Rodriguez,Fire always above nature.,36137.36
+2260,Christina Cox,95,Male,2024-08-30,2024-08-30,Pediatrics,Jordan Woods,Low boy yes.,26103.66
+8334,David Sanchez,76,Male,2024-12-11,2025-04-01,Psychiatry,Ernest Johnson,Although business art.,48620.85
+8063,Brian Rodriguez,77,Other,2024-08-04,2024-08-04,Emergency,Leonard Butler,You.,30834.64
+9534,Mr. Michael Miller DDS,39,Other,2024-02-27,2024-02-27,Psychiatry,Benjamin Nelson,Debate necessary.,32078.16
+4340,Christina Williams,91,Female,2024-07-08,2025-05-06,Oncology,Beth Lane,Painting rock.,25075.47
+9474,Kathleen Moore,98,Female,2024-08-21,2024-08-21,Emergency,Jamie Harris,Free crime.,17854.84
+9553,Melinda Payne,52,Male,2023-10-16,2024-04-26,Emergency,Robert Walker,Along network.,26354.07
+6449,Jennifer Johnson,96,Other,2024-01-28,2024-11-24,Oncology,Dr. Alison Saunders,Few ten list.,28912.52
+1162,Jasmine Castillo,77,Male,2024-03-01,2024-09-07,Psychiatry,Cassandra Andrade,Around energy.,13356.86
+2891,Glenn Thompson,28,Male,2024-05-14,2024-05-14,Cardiology,Alex Holloway,Exactly unit.,6709.59
+8585,Christopher Payne,98,Female,2024-04-09,2024-04-09,Pediatrics,Jason Cervantes,Quite article.,8429.35
+6516,Megan Esparza,67,Female,2024-09-02,2025-06-01,Orthopedics,Kimberly Thompson,Effect buy left.,45454.86
+2123,Steven Dean,52,Other,2023-12-26,2025-04-11,Pediatrics,Anna Schmidt,Dog book.,18444.2
+8497,Catherine May,36,Female,2023-09-04,2023-09-04,Orthopedics,Christopher Galloway,Issue animal.,27225.47
+1621,Andre Hahn,48,Female,2024-05-22,2025-02-28,Pediatrics,Jared Gray,Realize item and green.,48238.84
+4481,Erin Davis,16,Male,2023-07-18,2023-09-30,Psychiatry,William Wall,Address prepare.,38041.66
+3603,Michael Evans,40,Male,2025-03-20,2025-06-16,Cardiology,Miss Desiree Rogers,Voice campaign.,36024.3
+4248,Erin Luna,16,Female,2024-08-27,2025-06-12,Emergency,Kathryn Murillo,Season.,26310.65
+8208,James Harrell,47,Male,2023-09-01,2025-06-09,Neurology,Douglas Brown,Much of.,44193.48
+4889,Kara Kennedy,36,Other,2025-02-07,2025-07-10,Oncology,Steven Phillips,Nation like.,35277.02
+9201,Denise Shea,25,Other,2024-09-13,2024-09-13,Neurology,Anna Johnston,With loss approach.,49775.24
+8278,James Woodard,10,Other,2025-07-06,2025-07-06,Pediatrics,Gregory Wright,Every.,21858.21
+9381,Brandi Ramos,8,Male,2024-10-02,2024-10-02,Emergency,Jose Jackson,Building window seek.,12720.43
+4965,Alyssa Alexander,79,Female,2023-09-14,2023-09-14,Radiology,Desiree Johnson,Rock father.,40433.61
+5237,Angela Gaines,19,Female,2023-09-25,2023-09-25,Cardiology,Bernard Bond,Box toward.,28503.96
+1059,Tony Gomez,54,Other,2025-05-05,2025-06-14,Cardiology,Barry Schultz,Wife start culture.,28788.3
+7360,Christopher Graham,4,Other,2025-04-11,2025-04-11,Orthopedics,Sandra Welch,Become station foot.,3666.79
+6500,Vanessa Cooper,37,Female,2025-05-17,2025-05-21,Psychiatry,Amy Sherman,Reveal nature each.,8381.67
+7314,Joan Dudley,39,Male,2024-04-07,2024-04-07,Emergency,Karina Carlson,Somebody condition trial.,41338.47
+5932,Justin Alexander,10,Male,2024-02-21,2024-02-21,Pediatrics,Peter Chambers,Hot opportunity lawyer.,24023.14
+4525,Jennifer Martinez,54,Female,2023-09-25,2024-12-01,Psychiatry,Sean Gregory,Democratic television exactly.,48145.14
+7349,Victor Nicholson,13,Female,2025-06-12,2025-06-22,Psychiatry,Joel Peters,Likely Mr without.,21286.58
+8125,Rebecca Schmidt,40,Male,2025-03-07,2025-03-07,Emergency,Terri Hodges,Thing culture some.,12453.19
+1761,Jennifer Campbell,74,Male,2024-09-12,2025-04-30,Neurology,Alisha Williams,Address soldier.,26083.45
+9729,Brian Cruz,31,Female,2025-02-04,2025-02-04,Psychiatry,Amy Ayala,End him.,38202.04
+4585,Bradley Crawford,92,Female,2024-10-28,2025-07-02,Pediatrics,Jennifer Ferguson,Election minute.,28593.69
+1836,Stephen Woodward Jr.,37,Male,2024-03-05,2024-03-05,Emergency,Christine Grant,Discover probably.,4677.11
+7388,John Carr,30,Male,2025-01-01,2025-04-11,Cardiology,Barry Mcguire,Recently American.,40958.73
+7426,Nancy Green,45,Female,2024-10-15,2024-11-26,Psychiatry,Melissa Roberts,Democrat west opportunity.,15395.6
+9410,Donna Salinas,7,Male,2023-07-27,2023-09-21,Emergency,Kevin Johns,Rock southern.,48591.75
+4528,Victoria Wright,8,Female,2023-07-12,2024-12-04,Emergency,Lucas Weber,Station pretty.,45062.36
+9679,Michael Holt,20,Other,2024-12-27,2025-03-02,Oncology,Olivia Wyatt,Hand.,34006.49
+5098,Timothy Perez,83,Other,2024-09-26,2025-06-19,Pediatrics,William Collins,Law turn.,7375.84
+3268,Christopher Dawson,68,Other,2024-06-05,2025-04-12,Psychiatry,Brandon Lopez,Step oil.,44949.25
+7728,Sandra Johnson,57,Male,2024-03-21,2024-08-18,Cardiology,Jenna Walter,War hope.,2395.44
+4565,Cory Hogan,19,Female,2023-12-10,2025-01-01,Neurology,Paul Smith DVM,Only political.,17791.6
+8065,Heather Nolan,32,Female,2024-01-27,2024-03-24,Neurology,Courtney Coleman,Old might.,41068.45
+1483,Jason Sanders,42,Female,2024-12-15,2025-04-29,Emergency,Frank Armstrong,Make want to.,49639.06
+1280,Shane Martinez,42,Male,2023-08-11,2024-07-30,Oncology,Shaun Patterson,Close big describe least.,38477.57
+2680,Joseph Gilbert,75,Female,2024-08-15,2024-08-15,Emergency,Yolanda Shelton,Cover would military.,44755.99
+2135,Jessica Beasley,65,Other,2024-01-12,2024-01-12,Cardiology,Steven Rivera,Treatment could whom.,40808.39
+5133,Theresa Brown,63,Other,2024-11-10,2025-01-22,Radiology,Randall Miller,Executive sign sing.,24140.07
+2539,John Gomez,83,Female,2025-05-04,2025-05-04,Orthopedics,Marcus Shah,Seek once.,46851.62
+9116,Mary Hughes,44,Other,2025-06-18,2025-07-11,Radiology,Mary Jones,Laugh if few.,18039.18
+1336,Christine Reese,85,Female,2023-08-07,2023-12-13,Pediatrics,Valerie Acevedo,After foot hair those.,10539.74
+6096,Dean Sutton,15,Female,2024-10-25,2024-10-25,Pediatrics,Tyler Newman,Successful mouth we.,23472.0
+4956,Julie Dixon,11,Male,2024-09-11,2024-09-11,Psychiatry,Jenna Chen,You appear music.,35527.93
+3751,Christopher Pierce,12,Male,2023-11-05,2025-03-05,Orthopedics,Cynthia Miller,Pretty card.,10629.14
+5597,Angela Solomon,74,Male,2025-02-08,2025-05-29,Cardiology,Glenn Miles,Poor impact must.,44504.55
+1101,Laura Brown,68,Male,2025-02-06,2025-02-06,Psychiatry,Ashley Patton MD,Effect great.,2276.79
+3399,Sara Miles,32,Female,2024-03-30,2024-03-30,Radiology,Mr. Jason Lewis Jr.,Nor generation modern.,9994.17
+6418,Jeffery Moon,95,Male,2024-07-16,2024-07-16,Oncology,Chris Mack,Allow skill.,10979.39
+2478,Melissa Hill,4,Other,2024-03-05,2025-07-07,Radiology,Rachel Frank,Answer job reveal.,44314.18
+3080,Valerie Booker,31,Male,2025-04-16,2025-04-16,Emergency,Dawn Christensen,Oil network.,19284.99
+3458,Donald Maldonado,4,Male,2023-12-18,2025-04-15,Cardiology,Theresa Hardy,Method step this.,46060.17
+6037,Daniel Wilson,92,Other,2023-09-22,2023-09-22,Pediatrics,Catherine Gibbs,Recent night opportunity.,11326.05
+9447,Justin Gonzalez,79,Other,2024-02-01,2024-02-01,Psychiatry,Jorge Wilson,Special activity.,24451.09
+5233,Joseph Gonzalez,30,Other,2025-05-13,2025-05-13,Psychiatry,Julie Harris,Interview wrong knowledge.,45161.21
+1568,Margaret Morrow,37,Female,2024-03-12,2025-06-08,Psychiatry,Jennifer Miller,Wall else girl past.,47761.5
+9658,Cory Shaw,8,Male,2024-09-01,2024-09-01,Pediatrics,Linda Phillips DDS,Run benefit push imagine.,46015.19
+4912,Barbara Bass,61,Male,2024-11-22,2024-11-22,Cardiology,April Nguyen,Administration today deal.,22241.88
+4809,Kevin Ramsey,60,Male,2024-01-07,2024-05-20,Cardiology,Lauren Walters,Save must.,9210.07
+9748,Julia Cobb,42,Male,2025-05-25,2025-05-25,Neurology,Riley Morgan,General policy story change.,2253.49
+5684,Anthony Sims,41,Female,2024-05-10,2024-05-10,Cardiology,Thomas Hurst,Serve sure police.,36560.33
+1333,Mark Gonzalez,3,Female,2023-08-13,2023-12-02,Emergency,Eric Solis,Measure deep.,20787.38
+5802,Kimberly Haney,66,Female,2024-03-08,2024-12-27,Orthopedics,Natalie Davis MD,Travel brother.,24666.94
+7635,Crystal Garner,92,Female,2024-11-02,2025-02-01,Neurology,Juan Simmons,Factor mean start.,40027.21
+1738,Justin Macdonald,85,Other,2025-04-28,2025-07-05,Emergency,Andrew Smith,Mention people.,9949.54
+4379,Lindsay Gomez MD,34,Male,2024-07-01,2024-09-25,Radiology,John Miles,True senior.,11687.42
+4969,Makayla Myers,24,Other,2023-11-29,2023-11-29,Psychiatry,Jacob Wolfe,Capital open.,49809.67
+8073,Steven Garza,97,Female,2023-08-24,2025-06-22,Neurology,Amy Austin,Price plan better police.,6293.58
+5762,Thomas Rivera,67,Other,2024-10-15,2025-01-11,Cardiology,James Garcia,Live.,23087.49
+9598,Daniel Phillips,17,Male,2024-10-09,2025-03-24,Radiology,Sarah Holmes,Growth culture ok.,19652.98
+7281,Frederick Ferguson,45,Male,2024-09-28,2024-09-28,Orthopedics,Michelle Grant,Continue two upon.,15986.28
+7089,Ryan Smith,72,Female,2023-07-23,2023-07-23,Orthopedics,Noah Hill,From question direction.,43722.44
+2593,Stephen Murphy,77,Other,2024-08-04,2025-05-10,Pediatrics,Amber Ellis,Program which.,19771.0
+4839,Andrea Shelton,90,Male,2025-04-20,2025-06-15,Orthopedics,Karla Garcia,Money special morning.,19695.82
+6198,Paula Meadows,92,Male,2023-07-18,2025-01-30,Radiology,Angela Thomas,Six money feel.,10540.1
+7874,Mr. James Nolan,48,Male,2024-04-02,2025-02-02,Emergency,Melissa Edwards,Water.,19578.56
+2206,Joel Pennington,59,Other,2024-04-25,2024-05-05,Emergency,Joel Romero,Political yes he.,24015.95
+2690,James Edwards,6,Female,2024-02-13,2024-02-13,Orthopedics,Manuel Garcia,Clearly fight.,6773.47
+2975,Patrick Roth,37,Male,2025-02-02,2025-05-04,Oncology,Jacob Hernandez,Day various occur.,35055.84
+1027,Tina Roberts,18,Male,2025-03-19,2025-05-25,Neurology,Aaron Underwood,Small by mouth.,17714.68
+7072,Dustin Burke,48,Male,2025-01-01,2025-07-09,Neurology,Ana White,Magazine.,27800.79
+6478,Sandra Branch,94,Other,2023-11-14,2024-05-05,Neurology,Lynn Poole,Participant need goal.,40477.87
+8166,Lori Lopez,76,Female,2024-07-08,2024-07-08,Pediatrics,Paul Palmer,Purpose start onto else.,3867.98
+1797,Peter Whitehead,40,Male,2023-11-05,2023-11-05,Orthopedics,Claire Shepard,Rule product matter wife.,43002.01
+6826,Melissa Lawrence,3,Female,2024-09-04,2024-09-04,Radiology,Lauren Sloan,Ten throughout community.,23928.26
+1274,Abigail Gonzalez,91,Male,2023-09-03,2024-01-29,Psychiatry,David Tanner,High minute bar rule.,36361.56
+9795,Caitlin Jones,67,Female,2023-10-27,2025-03-23,Emergency,Gerald Duran,Direction seem remember.,13942.15
+3516,Steven Brown,24,Male,2023-12-21,2024-03-12,Orthopedics,James Martin,None return.,42730.52
+2705,Kendra Sanchez,10,Female,2024-09-10,2024-09-24,Emergency,Craig Chapman,Feel lose.,19099.35
+6123,Douglas Davis,48,Female,2025-01-04,2025-06-24,Emergency,Deborah Stanley,Community arrive.,13700.84
+6441,Joshua Braun,95,Other,2024-12-29,2025-01-31,Psychiatry,Mark Bell,Determine no suddenly degree.,20607.79
+7307,Mr. Adam Barber,13,Male,2023-10-05,2024-04-30,Pediatrics,Julia Smith MD,Project write.,8325.62
+1940,Laura Green,29,Female,2025-06-26,2025-06-26,Orthopedics,Randy Osborn,Agency early.,11849.89
+8054,Nicholas Richards,86,Male,2024-08-07,2024-08-07,Orthopedics,Alexis King,Late.,9153.16
+4506,Steven Murray,70,Male,2024-08-21,2024-12-13,Pediatrics,Luis Manning,Fund very.,42551.8
+9664,Anita Peterson,13,Male,2024-04-13,2024-04-13,Radiology,Benjamin Haley,Few reach.,3683.7
+1071,Kyle Smith,25,Male,2025-06-16,2025-06-16,Orthopedics,Beverly Lewis,Down.,26757.85
+1840,Karen West,71,Other,2025-07-03,2025-07-03,Psychiatry,Tony Rodriguez,Drop must.,10824.86
+9087,Jeffrey Knight,25,Other,2025-06-16,2025-06-16,Orthopedics,Christopher Juarez,Any design movement.,16685.83
+3594,Christine Jimenez,31,Other,2023-10-12,2023-10-12,Radiology,David Brennan,Involve toward light.,2996.74
+7734,Travis Barnes,82,Other,2025-03-11,2025-03-18,Emergency,Alex Anderson,Usually federal else.,33095.56
+7203,Kayla English,75,Male,2023-08-17,2025-01-09,Cardiology,Scott Fritz,Season wear.,33237.53
+8954,Margaret Bishop,90,Female,2024-11-09,2024-11-09,Orthopedics,Daniel Ayala,Ground situation.,32398.21
+3610,Nicole Williams,4,Other,2025-01-29,2025-07-02,Cardiology,Michael Patel,Save whatever.,13515.03
+6494,Courtney Rodriguez,35,Male,2024-02-23,2025-03-11,Emergency,Andrea Turner,Music friend.,39601.95
+7277,Kathy Morris,85,Other,2024-03-04,2025-03-22,Cardiology,Michael Wright,Deep it.,41361.94
+7622,Karen Parrish,53,Female,2025-04-04,2025-04-04,Neurology,Lance Williams,Record.,17703.42
+8928,Robert Andersen,28,Female,2023-12-17,2023-12-17,Oncology,Melissa Horne,Dark always.,47425.18
+4799,Michael Valenzuela,34,Female,2023-10-13,2025-01-16,Pediatrics,Jennifer Manning,It performance.,44516.58
+9973,Christopher Ray,45,Male,2024-03-05,2025-01-21,Neurology,Sara Mcbride,Difference parent.,22266.31
+4485,Erin Dominguez,60,Other,2025-06-24,2025-06-24,Psychiatry,Jason Hart,Enough team.,11733.57
+4387,Samuel Clark,31,Male,2024-12-06,2025-05-15,Psychiatry,James Russell,Management will.,35756.49
+3123,Stephanie Martinez,35,Male,2025-01-12,2025-01-12,Psychiatry,Tracy Harrison PhD,Cultural get wait.,14518.97
+5738,Ashlee Jordan,90,Other,2023-11-10,2024-04-11,Orthopedics,Heidi Rojas,Wall month.,39533.75
+5055,Grant Nguyen,93,Other,2023-10-16,2023-11-04,Radiology,Roger Howard,Reach factor.,15223.18
+7273,Shawn Callahan,14,Male,2024-02-06,2024-10-29,Cardiology,Monica Valdez,Behind.,14877.4
+2379,Nicholas Brooks,84,Other,2023-12-29,2023-12-29,Emergency,Jennifer Cole,Success Republican bar.,38263.25
+9891,Jeffery Kim,88,Female,2025-04-15,2025-07-05,Radiology,Mr. Jeffery Smith,Time eat car.,31407.37
+1116,Rebecca Figueroa,12,Male,2023-09-11,2024-05-05,Emergency,Brandon Steele,Market from.,29492.32
+1829,Charles Brown,9,Male,2023-08-16,2023-08-16,Oncology,Joseph Boyd,Huge feeling.,29228.27
+9967,Arthur Stevenson,32,Female,2024-11-27,2025-04-13,Orthopedics,Richard Walker,Without because attack.,46452.22
+9550,Daniel Smith,35,Male,2025-01-18,2025-07-03,Emergency,Philip Lin,Under.,13842.18
+3857,Kara Houston,94,Other,2024-10-31,2025-07-06,Pediatrics,Lisa Flores,Agency shoulder.,40691.05
+7641,Alyssa Johnson,45,Female,2024-12-31,2025-02-07,Oncology,Carolyn Ashley,Woman kid.,21583.0
+5800,Jason Pham,59,Female,2025-02-02,2025-02-02,Neurology,Laura Ballard,Eye grow.,31375.33
+7013,Tiffany Johnson,10,Female,2024-06-03,2025-04-23,Orthopedics,Maria Dixon,Second local art.,49549.73
+7992,Tammy Norris,73,Other,2023-07-17,2023-11-18,Oncology,Jack Whitaker,Since challenge.,23158.39
+9270,Tammy Garcia,33,Other,2024-03-17,2024-03-17,Psychiatry,Jacqueline Brady,Today much.,43597.86
+5306,Jessica Riley,100,Other,2024-02-05,2025-07-07,Emergency,Stephanie Vargas,Say by.,19829.61
+5980,Felicia Moon,88,Other,2024-07-20,2024-07-23,Oncology,Barbara Chapman MD,Affect see.,37434.58
+9455,Christopher Miller,68,Other,2023-10-04,2025-05-19,Oncology,James Choi,Lot ago.,45371.79
+8985,Paige Phillips,33,Other,2025-05-20,2025-07-05,Pediatrics,Robert Allen,Whose series.,43967.4
+8500,Joseph Ayers,25,Male,2024-12-02,2025-07-08,Oncology,Ellen Garza,Partner form prepare.,43878.85
+7240,Kaitlyn Miller,1,Male,2025-05-16,2025-05-16,Oncology,Manuel Woodard,Know compare usually.,15655.3
+9402,Larry Gardner,85,Male,2024-09-16,2024-09-16,Neurology,Joel Luna,Size pull move.,12265.89
+3440,Lynn Barnes,41,Female,2025-05-20,2025-06-11,Neurology,Christopher Wright,Listen garden baby.,33349.47
+7512,Jacob Sanchez,33,Male,2024-06-17,2024-10-21,Neurology,Christopher Farmer,Letter knowledge save.,36390.95
+2106,Catherine Miller,73,Other,2023-10-18,2024-03-30,Pediatrics,Nicholas Ford,Their stage interest.,6537.84
+6980,Jonathan Rodriguez,7,Other,2024-11-30,2025-06-24,Pediatrics,Amanda Kelley,Which fine most.,4312.98
+8999,Tiffany Shannon,35,Female,2025-06-19,2025-07-01,Emergency,Courtney Ortega,Affect coach out.,30991.73
+6004,Cristina Russell DVM,81,Male,2024-11-18,2025-03-14,Oncology,Joseph Neal,Role create.,4332.74
+1999,Jordan Campbell,56,Female,2024-02-27,2024-08-16,Cardiology,Victoria Frank,Scene officer staff.,33331.83
+2388,Mr. Justin Martinez,74,Other,2025-03-22,2025-03-22,Neurology,Jeremy Moore,Why loss.,22434.82
+9879,John Kelley,82,Male,2024-03-11,2024-03-11,Oncology,Laura Parsons,Bit education spring.,32454.01
+5386,Amy West,9,Female,2025-06-10,2025-06-28,Radiology,Gabriel Mata,Room I agency American.,5602.26
+9751,Nathan Hayes,95,Male,2024-03-15,2024-03-15,Cardiology,Darren Simmons,Responsibility read different.,22506.94
+4139,Brian Villegas,53,Male,2024-04-04,2025-03-12,Emergency,Daniel Bonilla,General still animal.,38895.74
+8079,Jennifer Henson DVM,38,Female,2024-02-15,2024-02-15,Orthopedics,Natalie Jackson,Affect carry.,8464.72
+3463,Scott Hernandez,20,Male,2024-09-28,2024-09-28,Radiology,Priscilla Palmer,Buy middle.,22835.86
+9317,Jesse Rodriguez,94,Other,2023-12-27,2023-12-27,Orthopedics,Mr. Daniel Thomas,Position protect over arm.,48697.78
+3161,Timothy Smith,47,Other,2025-02-25,2025-03-29,Neurology,Justin Hancock,Turn term.,18113.38
+8941,Luke Joseph,98,Female,2024-12-03,2024-12-03,Oncology,Jeffery Flores,Draw thousand name.,29630.6
+4843,Jill Cox,70,Other,2023-12-15,2023-12-15,Radiology,Dustin Thomas,After suggest.,40046.68
+9103,Timothy Anderson,16,Other,2024-05-22,2025-04-25,Emergency,Ryan Chen,Difficult dog full.,29475.77
+9097,Carl Garcia,99,Male,2024-04-17,2025-05-06,Radiology,Jack Adams,A.,34351.21
+4757,Mr. Eric Ramirez,63,Male,2023-08-20,2023-08-20,Pediatrics,Mrs. Kayla Williamson,Western father.,37289.66
+5073,Hailey Brown,33,Other,2023-10-09,2024-01-15,Cardiology,Angie Cooper,Goal development.,13189.05
+2823,Kevin Lawrence,17,Other,2024-07-25,2025-03-18,Orthopedics,Dustin Snow PhD,Employee build far.,33633.82
+9174,Mary Jordan,80,Female,2025-04-15,2025-06-02,Neurology,Brittany Ortiz,Instead oil peace.,36305.5
+9466,Gail Medina,44,Female,2025-03-25,2025-06-25,Orthopedics,Erica Lewis,Ten reach.,47687.9
+4328,Ralph Figueroa,66,Male,2025-01-03,2025-01-03,Radiology,Sarah Brown,In media kitchen.,48925.47
+7631,Tamara Ramsey,40,Female,2024-07-16,2025-02-16,Neurology,Eric Coleman,Culture.,36096.36
+4913,Katherine Carroll,26,Female,2024-10-31,2025-01-13,Cardiology,Michele Greer,West thus perhaps.,15480.95
+2471,Jennifer Ellison,10,Female,2024-04-07,2025-05-30,Neurology,Andrea Ramos,Report season week.,28909.67
+8538,Heather Boone,2,Other,2024-07-23,2024-07-23,Cardiology,Emily Collins,Quickly image idea.,38160.7
+2366,Jason Fernandez,11,Other,2025-05-22,2025-06-04,Psychiatry,Richard Sullivan,Discussion fly make.,38154.92
+5339,Mark Christensen,25,Other,2023-08-19,2023-08-19,Oncology,Megan Lopez,Will usually.,32919.24
+5004,Lee Moore,33,Female,2023-12-12,2025-06-06,Radiology,James Ramos,Reveal who cultural.,38607.48
+6167,Cynthia Russo,61,Female,2024-11-21,2025-02-05,Cardiology,Samuel Thomas,Similar majority edge.,13365.45
+3808,Morgan Hendrix,63,Female,2024-02-11,2024-09-25,Oncology,Debra Guerrero,Cultural area smile smile.,2634.38
+5186,Brian Hall,15,Female,2023-10-27,2024-06-01,Radiology,Samantha Wood,Beyond across.,16464.34
+3542,Louis White,8,Female,2025-01-12,2025-04-09,Emergency,Adriana Schneider,Close and word claim.,35800.1
+4753,Samantha Franco,9,Female,2024-08-23,2025-06-30,Cardiology,Katherine Wilkerson,Pretty house.,21678.15
+2098,Melissa Rivera,80,Female,2023-10-20,2024-10-05,Neurology,William Larson,Treatment usually.,3263.54
+3664,Veronica Palmer,69,Female,2024-08-30,2025-05-23,Oncology,Sandra Powell,Thought consumer thus.,8979.3
+7057,Ariana Charles,65,Male,2023-08-09,2024-10-06,Oncology,Stephanie Taylor,Choice these.,22882.11
+1623,Ms. Susan Hill PhD,3,Other,2024-04-22,2025-05-04,Pediatrics,Brandon Castillo,Focus wrong manager.,30108.57
+9042,Alicia Weber,30,Other,2025-05-15,2025-06-17,Radiology,Michael Wilson,Measure door.,22428.79
+8519,Jordan Woods,59,Female,2024-02-21,2025-03-11,Oncology,Matthew Hughes,Event.,28299.83
+9150,Elizabeth Scott,54,Other,2025-05-11,2025-05-14,Emergency,Sean Richardson,Including white.,32492.61
+2726,Maria Fuentes,10,Other,2025-05-06,2025-06-06,Emergency,Patrick Carter,Near fill then feel.,6601.1
+4245,Lisa Campbell,51,Male,2025-05-16,2025-05-16,Radiology,Richard Price,Wrong agent benefit.,12857.03
+6067,Sarah Thompson,53,Female,2024-12-03,2025-02-04,Cardiology,Sarah Snyder,Together imagine.,42193.72
+6135,Nicole Diaz,81,Male,2024-09-20,2024-09-20,Neurology,Charles Fletcher,Level safe establish.,30569.28
+1303,Matthew Torres,26,Female,2024-11-29,2024-11-29,Neurology,Charles Wood,Company describe.,5863.25
+5496,Breanna Moore,92,Other,2024-10-28,2024-12-08,Emergency,Patricia Cooke,Also degree.,12046.24
+3046,Alyssa White,57,Male,2024-11-25,2025-06-07,Neurology,Jennifer Johnson,Ability ask.,33595.17
+6122,Frederick Walker,41,Male,2024-10-26,2025-06-20,Oncology,Marcus Howe,Practice guy capital.,31309.85
+8733,Taylor Dalton,51,Other,2024-01-20,2024-10-06,Emergency,Teresa Gamble,Study protect.,43563.83
+2553,Brianna Johnson,45,Male,2024-03-26,2024-03-26,Cardiology,George Sexton MD,Nothing and among.,18142.06
+2893,Darlene Townsend,61,Other,2024-06-25,2024-06-25,Radiology,Jennifer Juarez,Buy.,25409.54
+7134,Shane Patterson,8,Female,2025-01-04,2025-07-06,Oncology,Matthew Maxwell,View pull.,42704.24
+3644,Jenny Doyle,13,Female,2023-12-26,2025-05-06,Emergency,Rachel Garcia,Finish special.,40539.93
+6758,Paul Smith,26,Male,2025-03-16,2025-07-09,Pediatrics,Jennifer Nelson,Friend thousand pretty.,40825.02
+4821,Heather Farrell,74,Other,2024-04-06,2025-04-03,Radiology,Holly Reed,Attention present unit.,4491.54
+5868,Julie Mayer,65,Female,2024-03-16,2025-07-05,Pediatrics,Annette Payne,Perform follow voice.,42715.45
+9858,Robert King,88,Other,2024-02-06,2024-11-06,Psychiatry,Mark Pugh,Truth agency write.,38942.81
+2641,Jeffrey Booker,27,Other,2024-08-21,2024-08-21,Cardiology,Jon Lambert,Heart fast memory.,11638.13
+6003,Eric Woods,79,Female,2025-05-06,2025-05-06,Neurology,Emily Moore,Energy purpose.,29540.2
+4198,Lisa Miller,21,Male,2023-12-23,2024-12-03,Radiology,Mr. Shane Young,Key space.,43591.8
+3307,Barbara Taylor,85,Male,2025-03-30,2025-05-08,Neurology,Malik Wright,Figure threat among.,22231.9
+6260,Calvin Charles,4,Female,2025-05-25,2025-06-20,Emergency,Lonnie Case,Wear recognize.,42147.53
+3848,Jennifer Stout,41,Male,2025-02-25,2025-02-25,Cardiology,Melissa Anderson,Shoulder kind single.,46277.38
+1097,Fernando Orozco MD,71,Female,2024-08-10,2024-08-27,Oncology,Gary Kim,Tax officer message.,22437.84
+9985,Jonathan Harmon,8,Female,2024-09-24,2025-05-17,Oncology,Aaron Brooks,Consumer.,6178.67
+1376,Katherine Smith,19,Male,2023-08-06,2024-04-01,Oncology,Tara Dunn,Contain might.,16696.83
+5021,Kimberly Carroll,43,Female,2023-09-08,2023-09-08,Oncology,Christy Schwartz,Nice.,32730.42
+8350,Richard Baxter,36,Other,2024-01-03,2024-01-03,Orthopedics,Brian Hardin,North stuff capital.,24837.25
+3066,Mary Hanson,51,Other,2024-10-18,2025-05-31,Emergency,Megan Owens,Laugh.,43841.92
+6809,Lindsey Randolph,10,Other,2025-02-16,2025-03-23,Neurology,Matthew Hamilton,Way various.,14520.03
+4104,Kelly Santana,18,Male,2025-03-14,2025-03-14,Pediatrics,Theresa Garcia,Nearly we.,17063.89
+3804,Paul Pittman,8,Other,2024-12-19,2025-03-30,Neurology,Charles Scott,Of stand oil.,10007.41
+3564,Christina Gillespie,20,Female,2024-07-03,2024-07-06,Orthopedics,Mrs. Amanda Powers MD,Seat they.,47498.9
+2699,Phillip Holt,85,Other,2025-04-12,2025-04-12,Emergency,Elizabeth Martinez,Over necessary itself.,42349.37
+6098,Cynthia Morales,90,Female,2025-07-01,2025-07-02,Neurology,Cheryl Tran,Book reach.,1158.92
+2761,Patrick Smith,97,Male,2024-06-27,2024-07-03,Psychiatry,Kenneth Woods,Early final.,16950.48
+8186,Elizabeth Wood,4,Male,2023-08-08,2023-08-08,Neurology,Marissa Marquez,Expect technology can.,27185.66
+1743,Mary Walker,40,Male,2023-10-31,2024-12-29,Cardiology,Virginia Villanueva,Base why hard.,37351.27
+2887,Lisa Brown,26,Other,2023-10-17,2023-11-26,Pediatrics,Mike Gonzales,Leg may.,19248.07
+7709,Jacqueline Torres,73,Male,2024-05-10,2024-07-14,Neurology,Vincent Monroe,Focus who leader.,36843.96
+1168,Ashley Gilmore,14,Other,2024-05-26,2024-08-01,Emergency,Dr. Troy Perez,Girl few quite.,34794.74
+9197,Christine Webb,66,Other,2025-06-15,2025-06-22,Oncology,David Hernandez,Congress general expert.,2550.21
+3486,Kenneth Kaufman,35,Other,2024-02-08,2024-08-03,Psychiatry,Christina Martinez,Management loss.,48106.93
+7502,Dwayne Vincent,57,Other,2024-01-10,2024-01-10,Emergency,Rachel Barber,Season rather.,10106.88
+9127,Theresa Huber,89,Other,2024-12-17,2024-12-17,Orthopedics,Sarah Boyle,Indeed cold although.,40125.28
+7130,Ryan Kline,20,Other,2025-05-19,2025-06-10,Cardiology,Heather Sanchez,Report speak.,37820.43
+6281,Richard Hudson,12,Other,2024-12-28,2025-05-06,Emergency,Pamela Sims,Show single cut.,27267.96
+4084,Joshua Miranda,34,Other,2024-02-10,2024-02-10,Orthopedics,Joseph Jones,American trial event.,44228.9
+1898,Jeffrey Pittman,13,Female,2024-05-15,2024-05-15,Radiology,Christina Brown,Travel game fine.,1113.38
+5118,Isaac Gonzalez,81,Other,2024-11-19,2025-01-22,Orthopedics,Robert Brown,Especially between science.,22706.05
+2999,Craig Hayes,19,Male,2024-06-01,2024-06-12,Pediatrics,Christopher Petersen,When against evening.,28154.7
+4584,Megan Dean DVM,6,Male,2023-09-22,2024-07-04,Emergency,Sharon Adams,Require.,27329.56
+5180,Jose Williams,2,Other,2025-01-03,2025-01-04,Orthopedics,Raymond English,Budget reach.,44188.78
+8161,Christopher Miller,21,Male,2024-05-26,2024-11-17,Emergency,Kevin Fuller,Rate treat politics.,34468.89
+3310,Kimberly Fry,27,Female,2024-08-03,2024-12-11,Cardiology,Daniel Flores,Significant drug.,33555.5
+6288,Katherine Wilkins,32,Other,2023-08-24,2023-08-24,Orthopedics,Dylan Gibbs,Style and central.,32236.63
+5931,Cassidy Wells,20,Male,2025-05-19,2025-06-17,Neurology,Adam Thompson,Fire reduce option.,26138.48
+3110,Edwin Washington,16,Other,2024-11-15,2025-05-04,Cardiology,Hannah Carpenter,Order realize.,40595.93
+2433,Michael Bass,17,Female,2025-02-21,2025-07-10,Neurology,Cynthia Ross,Simple court scientist.,40132.0
+9401,Donna Porter,81,Other,2024-10-29,2025-03-12,Radiology,Hannah Anderson,Author remain.,32006.59
+7768,Sydney Henderson,91,Male,2023-11-03,2024-06-29,Neurology,Charles Torres,Station miss group.,25378.62
+5305,Michael Burns,54,Other,2023-07-17,2023-07-17,Emergency,Madeline Russo,Appear task blood.,31394.46
+8148,Stacey Davis,47,Male,2024-08-29,2025-05-16,Orthopedics,Heather Richardson,Color born.,35430.08
+7176,Kenneth Cervantes,85,Male,2023-07-30,2024-11-25,Emergency,Mary Robinson,Today itself.,27474.16
+7113,Rhonda Cook,25,Male,2024-06-25,2024-07-29,Radiology,Stacey Carr,Though college.,33676.22
+8220,Robert Martinez,18,Other,2024-12-10,2025-06-09,Psychiatry,Lindsey Kim,National heart.,2690.71
+2191,Christopher Wood,59,Other,2024-10-02,2024-10-02,Oncology,Craig Mcmillan,Could market listen reach.,28456.46
+5499,Yolanda Rogers,49,Female,2023-11-20,2025-02-23,Psychiatry,Eileen Soto DVM,Education ever hotel.,40645.51
+2005,Elizabeth Christensen,35,Other,2025-03-05,2025-03-05,Cardiology,Tina Lara,Especially nation certainly.,32836.51
+5036,Brandi Lopez,29,Female,2024-05-05,2024-05-05,Oncology,Melissa Morris,Nor serious heart.,38758.39
+7074,Tina Price,30,Male,2024-03-31,2024-03-31,Emergency,Pamela Wilson,No affect help.,23163.75
+7826,Matthew Jordan,24,Male,2025-01-28,2025-01-28,Pediatrics,Walter Steele,Her drop.,43739.79
+1499,Ryan Ware,3,Other,2023-08-14,2025-01-17,Psychiatry,Sandra Torres,Among.,15211.94
+5144,Kevin Johnson,32,Female,2024-08-02,2025-05-19,Psychiatry,Kerry Anderson,Morning Mr number.,27690.1
+6363,Dalton Whitehead,57,Male,2024-09-16,2024-09-16,Pediatrics,Daniel King,Skill possible dream.,47189.43
+5218,Nancy Garrett,52,Female,2023-12-15,2025-01-20,Pediatrics,Andrew Thomas,Because cause.,15325.36
+6887,Darrell Smith,13,Female,2023-08-30,2023-08-30,Pediatrics,David Chen,Much everything clear item.,45349.89
+7253,Jeffrey Lawrence,42,Male,2025-01-06,2025-02-17,Cardiology,Erik Jones,People he.,46607.32
+3002,Sara Wells,18,Male,2025-03-01,2025-04-11,Psychiatry,Rachel Johnson,Piece behind argue.,26717.53
+1822,Savannah Irwin,81,Female,2024-12-18,2025-05-02,Neurology,Heather Malone,Gas eat federal.,13625.37
+7262,Autumn Stephens MD,12,Other,2024-04-18,2024-04-18,Psychiatry,Ronald Martin,Soldier science detail.,33898.42
+3927,Dr. Bonnie Estes,16,Female,2024-03-31,2025-02-08,Emergency,Rita Jones,News leader tend.,45849.73
+8067,Denise Trevino,3,Female,2023-09-28,2023-09-28,Neurology,Linda Walker,Republican country positive.,36021.69
+7231,Olivia Armstrong,97,Female,2023-09-26,2023-09-26,Pediatrics,April Reed,Election admit almost account.,41945.54
+4202,Ruth Thomas,39,Male,2024-10-22,2025-07-03,Cardiology,Albert Francis,Situation commercial possible point.,19715.83
+2270,Madison Singh,42,Female,2025-07-03,2025-07-11,Neurology,Amanda Campbell,Might nearly necessary.,22123.46
+2755,Angela Parker,17,Male,2024-07-18,2025-01-13,Neurology,James Martin,If bit.,35553.31
+2984,Keith Bowen,30,Other,2025-02-06,2025-04-07,Emergency,Sheila Garcia,Part ability.,5129.07
+6292,Ashley Sanchez,76,Male,2025-01-09,2025-05-23,Cardiology,Isaac Hanson,Check alone weight.,27473.77
+8495,Suzanne Williams,36,Male,2025-06-15,2025-06-20,Orthopedics,Emma Howard,Western serve daughter.,7169.64
+4402,Melanie Goodwin,8,Other,2024-06-03,2024-06-03,Orthopedics,Kevin Carlson,Field fish.,6824.57
+2871,James Rodriguez,1,Female,2025-04-23,2025-04-23,Radiology,Vanessa Williams,Front through gun.,46197.34
+4039,Melissa Freeman,73,Male,2025-02-17,2025-04-12,Radiology,Cody White,Condition listen.,33933.15
+5083,Elizabeth Munoz,35,Female,2024-02-25,2024-06-09,Cardiology,James Lopez,To remember.,10861.72
+5302,Lisa Foster,60,Female,2023-11-17,2024-03-29,Emergency,Andrew Hill,Term site land.,6736.74
+4300,Tim Singh,38,Other,2024-02-07,2024-05-31,Cardiology,Krista Lawson,Information return person sea.,20616.39
+7800,Dawn Gray MD,66,Male,2025-06-18,2025-07-08,Radiology,Kyle Griffin,Tough among free.,27087.45
+3577,Nicole Brown,51,Female,2024-09-08,2025-05-23,Psychiatry,Christopher Diaz,Out character serve.,25557.89
+1281,Kevin Lyons,34,Other,2024-07-22,2025-04-25,Radiology,Ricky Martinez,Art artist.,23502.94
+3414,Hannah Wells,55,Other,2024-07-21,2025-06-10,Oncology,Brian Pierce,Yard on part.,2440.01
+6044,Laura Davis,100,Other,2024-11-02,2025-05-16,Radiology,Brian Raymond,Small left I.,31235.11
+7791,Melinda Stephens,82,Male,2024-02-01,2024-11-30,Psychiatry,Julie Hill,Above add their now.,6217.42
+3350,Marie Trujillo,74,Female,2024-09-01,2025-01-20,Radiology,Robert Hill,Along employee pull.,8873.95
+1297,Rachel George,5,Male,2023-08-12,2023-08-12,Emergency,Michael Foster,Hotel east deep ever.,2315.94
+1495,Brenda Guerrero,46,Other,2023-11-05,2024-03-05,Radiology,James Alexander,Assume professor.,28505.8
+3936,Katherine Martin,91,Female,2023-08-07,2023-08-07,Cardiology,Albert Sanders,Imagine billion.,18079.5
+2946,Michael Silva,13,Female,2024-07-31,2024-07-31,Radiology,Marcus Combs,Just visit figure lay.,21834.47
+8420,Paul Waters,36,Other,2023-09-28,2024-05-09,Pediatrics,Jason Davis,Economy build.,31532.58
+7007,Michael Solis,44,Male,2024-04-19,2025-05-05,Neurology,Stephanie Chavez,Fund yes our.,39816.59
+9863,Cindy Wright,15,Other,2023-12-14,2024-01-08,Pediatrics,William Mullen,Enjoy school outside.,44005.51
+2472,Diana Dean,79,Female,2024-04-16,2024-04-16,Orthopedics,Gregory Brown,Personal purpose.,5707.3
+9677,Eileen Lewis,28,Male,2024-09-06,2024-09-06,Neurology,Jacob Curry,Fire kind.,8367.79
+2155,Allison Lyons,67,Other,2025-03-22,2025-03-22,Pediatrics,Andrew Wilson,Store rule range.,5090.87
+3442,Thomas Jacobs,17,Male,2023-08-28,2023-08-28,Orthopedics,Russell Alvarez,Deep woman expert.,14461.71
+7762,Lisa Jordan,60,Other,2024-06-10,2024-06-10,Oncology,Alexandria Howard,Way anyone purpose.,38698.99
+9438,Jonathan Guerrero,37,Other,2025-02-15,2025-06-05,Neurology,Joshua Garcia,Skill on.,44168.9
+8387,Robert Watts,16,Female,2024-11-26,2025-07-07,Cardiology,Makayla Callahan,Heart TV.,37034.82
+2685,Christopher Andrews,90,Female,2024-02-19,2024-12-16,Orthopedics,Cynthia Chan,Social city research.,12967.73
+9384,David Thomas,54,Male,2024-08-09,2025-04-30,Pediatrics,Nicole Choi,Sing.,47309.46
+4274,Christina Fisher,100,Other,2024-04-28,2024-08-10,Psychiatry,Michael Hooper,Together partner start.,14935.64
+5261,Jessica Patrick,65,Male,2024-08-07,2024-09-27,Cardiology,Alejandra Hines MD,Meet attention million.,39802.07
+1079,Steven Henderson,54,Male,2025-03-08,2025-04-27,Radiology,Joshua Young,Business matter.,11423.59
+9100,Andrew Sexton,60,Female,2023-12-16,2025-03-29,Psychiatry,Michael Moore,Condition continue.,23059.14
+5635,Karen Wong,22,Female,2023-10-18,2023-10-18,Radiology,Melissa Mccoy,Across long carry.,40275.82
+1778,Jeffery Jennings,98,Other,2023-12-29,2025-07-03,Emergency,Stephanie Davis,Appear whether dark.,39983.6
+1401,Andres Cohen,90,Male,2024-06-20,2024-06-20,Psychiatry,Danielle Davis,Street entire or.,39425.55
+8052,Desiree Carlson,14,Other,2025-04-13,2025-04-22,Oncology,Emily Burgess,Raise case.,19066.59
+9385,Lisa Vasquez,31,Male,2025-01-09,2025-01-09,Cardiology,Whitney Ware,Possible street.,14958.96
+8225,Anthony Rogers,95,Other,2024-01-16,2025-01-15,Emergency,Wendy Ramos,Which five scientist data.,8775.92
+7027,Erin Boyle,30,Other,2024-06-21,2025-02-17,Oncology,Cynthia Cruz,Simply would garden.,29836.0
+8070,Maurice Morrison,79,Other,2024-06-13,2025-04-24,Oncology,Casey Porter,Major maybe.,40482.7
+7382,Michael Williams,65,Male,2023-10-30,2024-03-08,Orthopedics,Matthew Schroeder,Entire lay.,18105.05
+6741,Troy Adams,98,Other,2025-06-29,2025-07-06,Psychiatry,Michael Munoz,Weight over catch.,12628.14
+3103,Julie Hubbard,83,Male,2025-07-02,2025-07-02,Psychiatry,Rebecca Gould,Relationship certain.,43615.64
+6727,Casey Taylor,41,Other,2024-06-08,2024-06-08,Neurology,Amanda Torres,Always want.,7634.21
+3135,Dustin Fitzpatrick,13,Male,2024-06-16,2024-06-16,Emergency,Linda Young,Bring.,2652.48
+4421,Lisa Rodriguez,85,Male,2025-01-14,2025-01-14,Psychiatry,Carrie Webb,Thus that.,40503.92
+3673,Jessica Parsons,35,Female,2023-11-06,2025-02-01,Radiology,James Thomas,Begin edge whether.,45226.23
+7717,William Lynch,44,Male,2025-05-22,2025-07-01,Neurology,Megan Lopez,Candidate involve long.,5487.47
+9823,William Stephens,61,Female,2024-07-24,2024-07-24,Emergency,David Ortega,View eat.,37655.73
+3659,Jodi Conrad,64,Other,2023-11-07,2024-05-07,Neurology,Robert Porter,Himself television better.,26027.95
+2530,Keith Diaz,31,Other,2024-03-24,2025-06-02,Orthopedics,Sheila Lewis,Thousand political.,42334.23
+7379,Jamie Mayer,58,Female,2025-02-11,2025-02-11,Psychiatry,Chad Day,Like social.,32746.52
+5123,Kimberly Thomas,71,Female,2023-12-24,2024-12-05,Orthopedics,Dennis Vargas,According very might.,35005.97
+1815,Daniel Montoya,54,Male,2025-02-28,2025-02-28,Psychiatry,Diane Brennan,Professional dream assume.,49684.52
+7174,Craig Daniels,19,Other,2025-05-23,2025-05-23,Psychiatry,Steven Herring,Morning resource part.,49571.36
+7371,Jasmine Conner,64,Male,2024-09-16,2025-07-03,Emergency,Angela Mcneil,Actually network.,28836.3
+2470,Mike Coleman,91,Other,2023-11-30,2024-01-27,Oncology,Thomas Garza,Political whatever.,27095.62
+7553,Steven Wyatt,9,Other,2025-01-04,2025-03-14,Cardiology,James Jones,Party dinner area.,36689.94
+6720,Cheryl Smith,51,Other,2024-06-13,2025-01-21,Orthopedics,James Sanchez,Education home.,22604.48
+7213,Brenda Reed,60,Other,2023-08-22,2025-05-25,Pediatrics,Dr. Adriana Moore,Sense whole.,29556.12
+4927,Brandon Sullivan,87,Female,2025-04-18,2025-06-24,Psychiatry,Tara Medina,Three east bad.,2274.39
+6319,Ashley Haley,64,Other,2023-08-28,2024-07-05,Orthopedics,Jose Sullivan,Real happen view.,44112.41
+6331,Anthony Kelley,95,Other,2023-12-07,2024-11-04,Orthopedics,Ross Esparza III,Them.,47784.88
+3101,Paul Dawson,33,Other,2024-02-26,2024-02-26,Psychiatry,Jason Reynolds,Marriage your news.,24369.41
+1369,Stephen Jordan,34,Female,2024-05-23,2024-05-23,Neurology,Alexis Jennings,Growth fight.,34600.01
